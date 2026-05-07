@@ -1,4 +1,4 @@
-# Lab Extractor Gemini/IA SAIRC — v8.8 casi producción
+# Lab Extractor Gemini/IA SAIRC — v8.8
 
 Versión orientada a procesamiento masivo de resultados de laboratorio de pacientes con ERC en hemodiálisis.
 
