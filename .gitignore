@@ -1,0 +1,45 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+secrets.*
+
+# Runtime outputs
+salida_laboratorio_gemini_sairc_v*/
+cache_ai/
+estado_pdf/
+retry_queue.json
+errores_reprocesables.csv
+manifest*.json
+process.log
+process.jsonl
+
+# Generated reports/exports
+*.xlsx
+*.xlsm
+*.csv
+*.sqlite
+*.db
+
+# Build artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Editor/OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

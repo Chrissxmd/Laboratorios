@@ -1,0 +1,1 @@
+Este paquete no necesita EXE. Usa install_cmd.bat para preparar el entorno y luego run_cmd.bat o run_cli_cmd.bat.
