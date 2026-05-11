@@ -82,17 +82,6 @@ Si documento_en_pdf != documento_en_nombre_archivo:
 - Usa `SAIRC_No_Cargable` para errores de identidad o bloqueos fuertes.
 - Usa `Control_Identidad` para auditar casos donde el documento no coincide o no fue detectado.
 
-## Recomendación operativa
-
-Antes de producción plena, corre nuevamente la prueba de 464 PDFs y revisa:
-
-- cantidad en `SAIRC_Cargable`;
-- cantidad en `SAIRC_No_Cargable`;
-- casos `NO_CARGABLE_IDENTIDAD`;
-- casos `REVISAR_SIN_DOCUMENTO_PDF`;
-- tiempos promedio en `Costos_Latencia`;
-- alertas de `Pendientes_Alta`.
-
 ## Nota v8.8 final
 
 - `sairc_formulario2.csv` queda como archivo de compatibilidad, pero ahora contiene solo registros cargables.
